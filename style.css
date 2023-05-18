@@ -1,0 +1,76 @@
+/* Import the 'Poppins' font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+/* Apply box-sizing border-box to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Styling for the body element */
+body {
+    /* Set the background color */
+    background-color: rgb(161, 100, 223);
+    
+    /* Set the font family to 'Poppins' */
+    font-family: 'Poppins', sans-serif;
+    
+    /* Flexbox styles */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    /* Center the text within the body */
+    text-align: center;
+    
+    /* Set the height of the body to 100vh */
+    height: 100vh;
+    
+    /* Hide overflowing content */
+    overflow: hidden;
+    
+    /* Remove margin from the body */
+    margin: 0;
+}
+
+/* Styling for the buttons */
+.btn {
+    /* Set the background color */
+    background-color: rebeccapurple;
+    
+    /* Add border radius */
+    border-radius: 5px;
+    
+    /* Remove the border */
+    border: none;
+    
+    /* Set the text color to white */
+    color: white;
+    
+    /* Add margin around the buttons */
+    margin: 1rem;
+    
+    /* Add padding to the buttons */
+    padding: 1.5rem 3rem;
+    
+    /* Set the font size */
+    font-size: 1.2rem;
+    
+    /* Use the default font family */
+    font-family: inherit;
+}
+
+/* Styling for button hover state */
+.btn:hover {
+    /* Reduce opacity on hover */
+    opacity: 0.9;
+}
+
+/* Styling for button focus state */
+.btn:focus {
+    /* Remove the outline */
+    outline: none;
+    
+    /* Add a cursor pointer */
+    cursor: pointer;
+}
